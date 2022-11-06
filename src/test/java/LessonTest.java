@@ -15,7 +15,6 @@ public class LessonTest {
 
     @Test
     public void testH2TagTextWhenSearchingCityCountry() throws InterruptedException {
-
         System.setProperty("webdriver.chrome.driver", "/Applications/ChromeDriver/chromedriver");
         WebDriver driver = new ChromeDriver();
 
